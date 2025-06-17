@@ -34,7 +34,7 @@
     /* Override Extent's default logo styling */
     .header .vheader .nav-logo,
     .nav-logo {
-      content: url('file://C:/Users/DELL/git/PayAPT/com.payapt.dev/Configuration/logo.png');
+      content: url('file://C:/Users/DELL/git/Payapt_DevServer/com.payapt.dev/Configuration/logo.png');
       max-height: 50px;
       width: auto;
       padding: -1px 20px;
