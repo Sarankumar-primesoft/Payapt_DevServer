@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-17T14:29:16 IST" name="Suite" finished-at="2025-06-17T14:42:36 IST" duration-ms="799608">
+    <groups>
+    </groups>
+    <test started-at="2025-06-17T14:29:16 IST" name="Test" finished-at="2025-06-17T14:42:36 IST" duration-ms="799608">
+      <class name="IndividualFlows.FedwireBatchTest">
+        <test-method signature="Batchcreation()[pri:0, instance:IndividualFlows.FedwireBatchTest@38e79ae3]" started-at="2025-06-17T14:33:17 IST" name="Batchcreation" finished-at="2025-06-17T14:33:19 IST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Batchcreation -->
+      </class> <!-- IndividualFlows.FedwireBatchTest -->
+      <class name="IndividualFlows.Reports_ParticipantFileFednow">
+        <test-method signature="ParticipantFile_FedNow()[pri:0, instance:IndividualFlows.Reports_ParticipantFileFednow@58ea606c]" started-at="2025-06-17T14:31:53 IST" name="ParticipantFile_FedNow" finished-at="2025-06-17T14:32:13 IST" duration-ms="19489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParticipantFile_FedNow -->
+      </class> <!-- IndividualFlows.Reports_ParticipantFileFednow -->
+      <class name="IndividualFlows.Reports_AccountReportingFedwire">
+        <test-method signature="AccountReportingTest_Fedwire()[pri:0, instance:IndividualFlows.Reports_AccountReportingFedwire@63070bab]" started-at="2025-06-17T14:33:19 IST" name="AccountReportingTest_Fedwire" finished-at="2025-06-17T14:39:34 IST" duration-ms="375274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountReportingTest_Fedwire -->
+      </class> <!-- IndividualFlows.Reports_AccountReportingFedwire -->
+      <class name="IndividualFlows.Reports_RetrivalRequestFednow">
+        <test-method signature="RetrivalRequestTest_FedNow()[pri:0, instance:IndividualFlows.Reports_RetrivalRequestFednow@1dac5ef]" started-at="2025-06-17T14:31:03 IST" name="RetrivalRequestTest_FedNow" finished-at="2025-06-17T14:31:32 IST" duration-ms="28117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetrivalRequestTest_FedNow -->
+      </class> <!-- IndividualFlows.Reports_RetrivalRequestFednow -->
+      <class name="com.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTest@37271612]" started-at="2025-06-17T14:29:12 IST" name="setup" finished-at="2025-06-17T14:29:16 IST" duration-ms="4839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:0, instance:com.test.LoginTest@37271612]" started-at="2025-06-17T14:29:16 IST" name="Login" finished-at="2025-06-17T14:29:17 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTest@37271612]" started-at="2025-06-17T14:42:36 IST" name="tearDown" finished-at="2025-06-17T14:42:41 IST" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LoginTest -->
+      <class name="IndividualFlows.Fedwire_ExecutionsSummaryTest">
+        <test-method signature="FedwireBatchExecutionSummaryResults()[pri:0, instance:IndividualFlows.Fedwire_ExecutionsSummaryTest@762ef0ea]" started-at="2025-06-17T14:41:29 IST" name="FedwireBatchExecutionSummaryResults" finished-at="2025-06-17T14:42:36 IST" duration-ms="67026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FedwireBatchExecutionSummaryResults -->
+      </class> <!-- IndividualFlows.Fedwire_ExecutionsSummaryTest -->
+      <class name="IndividualFlows.FednowBatchTest">
+        <test-method signature="Batchcreation()[pri:0, instance:IndividualFlows.FednowBatchTest@4e3958e7]" started-at="2025-06-17T14:29:17 IST" name="Batchcreation" finished-at="2025-06-17T14:29:41 IST" duration-ms="23719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Batchcreation -->
+      </class> <!-- IndividualFlows.FednowBatchTest -->
+      <class name="IndividualFlows.Fednow_ExecutionsSummary">
+        <test-method signature="FednowBatchExecutionSummaryResults()[pri:0, instance:IndividualFlows.Fednow_ExecutionsSummary@6f45df59]" started-at="2025-06-17T14:32:13 IST" name="FednowBatchExecutionSummaryResults" finished-at="2025-06-17T14:33:17 IST" duration-ms="63834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FednowBatchExecutionSummaryResults -->
+      </class> <!-- IndividualFlows.Fednow_ExecutionsSummary -->
+      <class name="IndividualFlows.Reports_AccountReportingFednow">
+        <test-method signature="AccountReportingTest_FedNow()[pri:0, instance:IndividualFlows.Reports_AccountReportingFednow@77f80c04]" started-at="2025-06-17T14:29:41 IST" name="AccountReportingTest_FedNow" finished-at="2025-06-17T14:31:03 IST" duration-ms="82865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountReportingTest_FedNow -->
+      </class> <!-- IndividualFlows.Reports_AccountReportingFednow -->
+      <class name="IndividualFlows.Reports_BroadcastMessagesFednow">
+        <test-method signature="BroadcastMessages_FedNow_PB()[pri:0, instance:IndividualFlows.Reports_BroadcastMessagesFednow@5c90e579]" started-at="2025-06-17T14:31:32 IST" name="BroadcastMessages_FedNow_PB" finished-at="2025-06-17T14:31:53 IST" duration-ms="21951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BroadcastMessages_FedNow_PB -->
+      </class> <!-- IndividualFlows.Reports_BroadcastMessagesFednow -->
+      <class name="IndividualFlows.Reports_BroadcastMessagesFedwire">
+        <test-method signature="BroadcastMessages_Fedwire_PB()[pri:1, instance:IndividualFlows.Reports_BroadcastMessagesFedwire@291b4bf5]" started-at="2025-06-17T14:40:00 IST" name="BroadcastMessages_Fedwire_PB" finished-at="2025-06-17T14:40:21 IST" duration-ms="21311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BroadcastMessages_Fedwire_PB -->
+        <test-method signature="BroadcastMessages_Fedwire_FB()[pri:2, instance:IndividualFlows.Reports_BroadcastMessagesFedwire@291b4bf5]" started-at="2025-06-17T14:40:21 IST" name="BroadcastMessages_Fedwire_FB" finished-at="2025-06-17T14:41:06 IST" duration-ms="44504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BroadcastMessages_Fedwire_FB -->
+      </class> <!-- IndividualFlows.Reports_BroadcastMessagesFedwire -->
+      <class name="IndividualFlows.Reports_ParticipantFileFedwire">
+        <test-method signature="ParticipantFile_Fedwire()[pri:0, instance:IndividualFlows.Reports_ParticipantFileFedwire@2d2ffcb7]" started-at="2025-06-17T14:41:06 IST" name="ParticipantFile_Fedwire" finished-at="2025-06-17T14:41:29 IST" duration-ms="23027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParticipantFile_Fedwire -->
+      </class> <!-- IndividualFlows.Reports_ParticipantFileFedwire -->
+      <class name="IndividualFlows.Reports_RetrivalRequestFedwire">
+        <test-method signature="RetrivalRequestTest_Fedwire()[pri:0, instance:IndividualFlows.Reports_RetrivalRequestFedwire@68e5eea7]" started-at="2025-06-17T14:39:34 IST" name="RetrivalRequestTest_Fedwire" finished-at="2025-06-17T14:40:00 IST" duration-ms="25847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetrivalRequestTest_Fedwire -->
+      </class> <!-- IndividualFlows.Reports_RetrivalRequestFedwire -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
