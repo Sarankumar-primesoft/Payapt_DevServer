@@ -750,6 +750,7 @@ public class BaseClass {
 
 		ExtentReport.extent.setSystemInfo("Browser Name", BrowserName);
 		ExtentReport.extent.setSystemInfo("Browser Version", BrowserVersion);
+		ExtentReport.extent.setSystemInfo("Executed By", prop.getProperty("executedby"));
 	}
 
 	public void assertLoaderAppears(WebElement element) {
