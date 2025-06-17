@@ -130,6 +130,7 @@ public class BaseClass {
 	        chromePrefs.put("profile.password_manager_enabled", false);
 	        chromeOptions.setExperimentalOption("prefs", chromePrefs);
 	        chromeOptions.addArguments("--disable-save-password-bubble");
+	        chromeOptions.addArguments("--disable-features=AutofillServerCommunication,PasswordManagerEnableSaving,PasswordChangeDetection");
 
 	        // 🔍 Detect Jenkins environment
 	        boolean isJenkins = System.getenv("JENKINS_HOME") != null;

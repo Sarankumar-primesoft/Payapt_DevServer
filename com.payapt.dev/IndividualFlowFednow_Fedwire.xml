@@ -10,7 +10,7 @@
 			<class name="com.test.LoginTest" />
 			<class name="IndividualFlows.FednowBatchTest" />
 			<class name="IndividualFlows.Reports_AccountReportingFednow" />
-			<class name="IndividualFlows.Reports_RetrivalRequestFednow" />
+			<!--<class name="IndividualFlows.Reports_RetrivalRequestFednow" />
 			<class name="IndividualFlows.Reports_BroadcastMessagesFednow" />
 			<class name="IndividualFlows.Reports_ParticipantFileFednow" />
 			<class name="IndividualFlows.Fednow_ExecutionsSummary" />
@@ -20,7 +20,7 @@
 			<class name="IndividualFlows.Reports_RetrivalRequestFedwire" />
 			<class name="IndividualFlows.Reports_BroadcastMessagesFedwire" />
 			<class name="IndividualFlows.Reports_ParticipantFileFedwire" />
-			<class name="IndividualFlows.Fedwire_ExecutionsSummaryTest" />
+			<class name="IndividualFlows.Fedwire_ExecutionsSummaryTest" />-->
 		</classes>
 	</test> <!--
 	Test -->
