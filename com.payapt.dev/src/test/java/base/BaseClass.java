@@ -131,7 +131,9 @@ public class BaseClass {
 	        chromeOptions.setExperimentalOption("prefs", chromePrefs);
 	        chromeOptions.addArguments("--disable-save-password-bubble");
 	        chromeOptions.addArguments("--disable-features=AutofillServerCommunication,PasswordManagerEnableSaving,PasswordChangeDetection");
-
+	        chromeOptions.addArguments("--disable-blink-features=AutomationControlled");
+	        chromeOptions.addArguments("--password-store=basic");
+	        chromeOptions.addArguments("--no-first-run");
 	        // 🔍 Detect Jenkins environment
 	        boolean isJenkins = System.getenv("JENKINS_HOME") != null;
 
