@@ -96,6 +96,14 @@ public class Fednow_ExecutionsSummary extends BaseClass{
 		}
 
 		if (!pendingZero) {
+			System.out.println(FedwireBatchTest.FedwirestartTime);
+			System.out.println((((System.currentTimeMillis() -FedwireBatchTest.FedwirestartTime)/1000)/60));
+			
+			long durationMillis = System.currentTimeMillis() - FedwireBatchTest.FedwirestartTime;
+			long minutes = (durationMillis / 1000) / 60;
+			long seconds = (durationMillis / 1000) % 60;
+			Extentlogger.pass("Time Taken : " + minutes + " minute(s) " + seconds + " second(s)");
+			
 			actions.moveToElement(exectuionpage.resultsclmn).perform();
 			Thread.sleep(1000); // Wait for tooltip to appear
 			List<WebElement> tooltip = exectuionpage.tooltip;

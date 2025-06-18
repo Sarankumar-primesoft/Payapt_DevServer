@@ -69,11 +69,11 @@ public class Fedwire_ExecutionsSummaryTest extends BaseClass{
 				System.out.println("Tooltip text: " + tooltipText);
 
 				System.out.println(FedwireBatchTest.FedwirestartTime);
-				System.out.println((((System.currentTimeMillis() -FednowBatchTest.FednowstartTime)/1000)/60));
+				System.out.println((((System.currentTimeMillis() -FedwireBatchTest.FedwirestartTime)/1000)/60));
 				// Check if pending count is 0
 				if (tooltipText.contains("Test cases Pending: 0")) {
 					pendingZero = true;
-					long durationMillis = System.currentTimeMillis() - FednowBatchTest.FednowstartTime;
+					long durationMillis = System.currentTimeMillis() - FedwireBatchTest.FedwirestartTime;
 					long minutes = (durationMillis / 1000) / 60;
 					long seconds = (durationMillis / 1000) % 60;
 					Extentlogger.pass("Time Taken : " + minutes + " minute(s) " + seconds + " second(s)");
@@ -99,6 +99,14 @@ public class Fedwire_ExecutionsSummaryTest extends BaseClass{
 		}
 
 		if (!pendingZero) {
+			System.out.println(FedwireBatchTest.FedwirestartTime);
+			System.out.println((((System.currentTimeMillis() -FedwireBatchTest.FedwirestartTime)/1000)/60));
+			
+			long durationMillis = System.currentTimeMillis() - FedwireBatchTest.FedwirestartTime;
+			long minutes = (durationMillis / 1000) / 60;
+			long seconds = (durationMillis / 1000) % 60;
+			Extentlogger.pass("Time Taken : " + minutes + " minute(s) " + seconds + " second(s)");
+			
 			actions.moveToElement(exectuionpage.resultsclmn).perform();
 			Thread.sleep(1000); // Wait for tooltip to appear
 			List<WebElement> tooltip = exectuionpage.tooltip;

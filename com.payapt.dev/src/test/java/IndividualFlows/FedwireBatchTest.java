@@ -33,6 +33,8 @@ public class FedwireBatchTest extends BaseClass{
 		batchpage.tabsearch.sendKeys(Keys.CONTROL + "a");
 		batchpage.tabsearch.sendKeys(Keys.DELETE);
 		
+		JSClick(driver,batchpage.batchfiletoggle, "Changing toggle to Batch file");
+		
 		sendkeys(batchpage.tabsearch,prop.getProperty("FedwireBatchName"));
 		Extentlogger.info("Batch Name : "+prop.getProperty("FedwireBatchName"));
 		JSClick(driver,batchpage.chkbatchcheckbox1,"Check box select");
