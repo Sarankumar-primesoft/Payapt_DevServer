@@ -32,6 +32,7 @@ public class Reports_AccountReportingFedwire extends BaseClass{
 			ExtentReport.createChildTest(reportType);
 			// Step 1: Select payment service to fedwire and Reopen the Report type dropdown
 			clickelementwithname(acreport.paymentservicedropdown, "Payment service dropdown");
+			visibleofele(driver, acreport.fedwireoption, "Payment service dropdown");
 			JSClick(driver,acreport.fedwireoption, "Payment service dropdown");
 			clickelementwithname(acreport.selectReportType, "Reopening Report Type dropdown");
 			
