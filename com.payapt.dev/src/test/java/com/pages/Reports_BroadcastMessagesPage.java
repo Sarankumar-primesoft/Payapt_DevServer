@@ -144,7 +144,7 @@ public class Reports_BroadcastMessagesPage extends BaseClass {
 		{			 
 
 			String generateddata= generatedreportText.getText();
-			System.out.println(generateddata);
+//			System.out.println(generateddata);
 			if (generateddata.equalsIgnoreCase(prop.getProperty("GeratedReportNoData"))) 
 			{
 				Extentlogger.fail("Generated Report Shows : "+generatedreportText.getText());
