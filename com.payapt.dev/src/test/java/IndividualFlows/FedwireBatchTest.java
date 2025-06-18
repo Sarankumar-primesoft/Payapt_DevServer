@@ -10,7 +10,7 @@ import com.pages.BatchPage;
 import base.BaseClass;
 
 public class FedwireBatchTest extends BaseClass{
-	public static long FedwirestartTime = System.currentTimeMillis();
+	public static long FedwirestartTime;
 	@Test
 	public void Batchcreation() throws InterruptedException
 	{
@@ -40,7 +40,7 @@ public class FedwireBatchTest extends BaseClass{
 		JSClick(driver,batchpage.chkbatchcheckbox1,"Check box select");
 
 		clickelementwithname(batchpage.btnplaybutton, "Run btn");
-		
+		FedwirestartTime = System.currentTimeMillis();
 //		visibleofele(driver,batchpage.lblBatchsuccMsg, "Sucess msg");
 //		assertEquals(batchpage.lblBatchsuccMsg.getText(), prop.getProperty("BatchRunsuccmsg"),"Batch Run Sucess msg");
 		

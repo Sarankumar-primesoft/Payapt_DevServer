@@ -11,7 +11,7 @@ import base.BaseClass;
 
 public class FednowBatchTest extends BaseClass{
 
-	public static long FednowstartTime = System.currentTimeMillis();
+	public static long FednowstartTime ;
 	
 	@Test
 	public void Batchcreation() throws InterruptedException
@@ -39,6 +39,7 @@ public class FednowBatchTest extends BaseClass{
 		JSClick(driver,batchpage.chkbatchcheckbox,"Check box select");
 
 		clickelementwithname(batchpage.btnplaybutton, "Run btn");
+		FednowstartTime = System.currentTimeMillis();
 		
 //		visibleofele(driver,batchpage.lblBatchsuccMsg, "Sucess msg");
 //		assertEquals(batchpage.lblBatchsuccMsg.getText(), prop.getProperty("BatchRunsuccmsg"),"Batch Run Sucess msg");
