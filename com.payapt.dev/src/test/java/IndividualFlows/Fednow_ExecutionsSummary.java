@@ -96,10 +96,11 @@ public class Fednow_ExecutionsSummary extends BaseClass{
 		}
 
 		if (!pendingZero) {
-			System.out.println(FedwireBatchTest.FedwirestartTime);
-			System.out.println((((System.currentTimeMillis() -FedwireBatchTest.FedwirestartTime)/1000)/60));
+			System.out.println(FednowBatchTest.FednowstartTime);
+			System.out.println((((System.currentTimeMillis() -FednowBatchTest.FednowstartTime)/1000)/60));
+			Extentlogger.info("Duration: "+(((System.currentTimeMillis() -FednowBatchTest.FednowstartTime)/1000)/60));
 			
-			long durationMillis = System.currentTimeMillis() - FedwireBatchTest.FedwirestartTime;
+			long durationMillis = System.currentTimeMillis() - FednowBatchTest.FednowstartTime;
 			long minutes = (durationMillis / 1000) / 60;
 			long seconds = (durationMillis / 1000) % 60;
 			Extentlogger.pass("Time Taken : " + minutes + " minute(s) " + seconds + " second(s)");

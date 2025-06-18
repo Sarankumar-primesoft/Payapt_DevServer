@@ -101,6 +101,7 @@ public class Fedwire_ExecutionsSummaryTest extends BaseClass{
 		if (!pendingZero) {
 			System.out.println(FedwireBatchTest.FedwirestartTime);
 			System.out.println((((System.currentTimeMillis() -FedwireBatchTest.FedwirestartTime)/1000)/60));
+			Extentlogger.info("Duration: "+(((System.currentTimeMillis() -FedwireBatchTest.FedwirestartTime)/1000)/60));
 			
 			long durationMillis = System.currentTimeMillis() - FedwireBatchTest.FedwirestartTime;
 			long minutes = (durationMillis / 1000) / 60;
