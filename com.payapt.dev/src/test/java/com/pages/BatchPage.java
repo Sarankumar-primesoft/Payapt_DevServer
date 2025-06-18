@@ -26,6 +26,8 @@ public class BatchPage extends BaseClass {
 	public WebElement tabsearch;
 	@FindBy(xpath = "(//input[@type='checkbox'])[2]")
 	public WebElement chkbatchcheckbox;
+	@FindBy(xpath = "(//input[@type='checkbox'])[2]")
+	public WebElement chkbatchcheckbox1;
 	@FindBy(xpath = "//button[@variant='contained']")
 	public WebElement btnplaybutton;
 	@FindBy(xpath = "//div[text()='Batch executed successfully']")
