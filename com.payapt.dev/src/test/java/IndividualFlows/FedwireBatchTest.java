@@ -35,6 +35,7 @@ public class FedwireBatchTest extends BaseClass{
 		
 		sendkeys(batchpage.tabsearch,prop.getProperty("FedwireBatchName"));
 		Extentlogger.info("Batch Name : "+prop.getProperty("FedwireBatchName"));
+		scrollByVisibilityOfElement(driver,batchpage.chkbatchcheckbox);
 		JSClick(driver,batchpage.chkbatchcheckbox,"Check box select");
 
 		clickelementwithname(batchpage.btnplaybutton, "Run btn");
