@@ -53,7 +53,7 @@ public class Fednow_ExecutionsSummary extends BaseClass{
 
 		// Wait for pending test cases to become 0
 
-		long maxWaitTime = 10 * 60 * 1000; // 5 minutes in milliseconds
+		long maxWaitTime = 5 * 60 * 1000; // 5 minutes in milliseconds
 		boolean pendingZero = false;
 
 		while (System.currentTimeMillis() - FednowBatchTest.FednowstartTime < maxWaitTime) {

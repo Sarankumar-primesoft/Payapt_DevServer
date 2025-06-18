@@ -54,7 +54,7 @@ public class Fedwire_ExecutionsSummaryTest extends BaseClass{
 
 		// Wait for pending test cases to become 0
 
-		long maxWaitTime = 10 * 60 * 1000; // 10 minutes in milliseconds
+		long maxWaitTime = 5 * 60 * 1000; // 10 minutes in milliseconds
 		boolean pendingZero = false;
 
 		while (System.currentTimeMillis() -FedwireBatchTest.FedwirestartTime < maxWaitTime) {
