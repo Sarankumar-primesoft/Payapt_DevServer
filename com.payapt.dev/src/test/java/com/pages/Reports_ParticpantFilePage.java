@@ -24,6 +24,8 @@ public class Reports_ParticpantFilePage extends BaseClass {
 
 	@FindBy(xpath = "//button[contains(text(),'Generate')]")
 	public WebElement generatebtn;
+	@FindBy(xpath = "//button[contains(text(),'Generate')]")
+	public WebElement generatebtn1;
 
 	@FindBy(xpath = "//div[contains(text(),'Generated Successfully')]/..")
 	public WebElement generatedAlert;
@@ -93,7 +95,7 @@ public class Reports_ParticpantFilePage extends BaseClass {
 		JSClick(driver,PFreport.fedwireoption, "Fedwire Payment service.");
 
 		Thread.sleep(1000);
-		clickelementwithname(PFreport.generatebtn,"Generate Fednow participant file btn");
+		clickelementwithname(PFreport.generatebtn1,"Generate Fednow participant file btn");
 		visibleofele(driver, PFreport.generatedAlert, "Generated alert");
 
 		visibleofele(driver, PFreport.GenerateResultscren, "Generated Results Screen");
