@@ -31,6 +31,7 @@ public class Reports_RetrivalRequestFedwire extends BaseClass{
 			ExtentReport.createChildTest("Message Type - "+MessageTypeConfig);
 			// Step 1: Reopen the dropdown
 			clickelementwithname(RRreport.paymentservicedropdown, "Payment service dropdown");
+			visibleofele(driver, RRreport.fedwireoption, "Payment service dropdown");
 			JSClick(driver,RRreport.fedwireoption, "Fedwire Payment service.");
 			
 			datePicker();
