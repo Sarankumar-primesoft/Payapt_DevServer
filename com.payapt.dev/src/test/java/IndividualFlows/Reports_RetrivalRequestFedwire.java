@@ -16,7 +16,7 @@ public class Reports_RetrivalRequestFedwire extends BaseClass{
 	@Test
 	public void RetrivalRequestTest_Fedwire() throws InterruptedException
 	{
-//		refresh();
+		refresh();
 		ExtentReport.createTest("Retrival Request Fedwire Test");
 		RRreport = new Reports_RetrivalRequestPage(driver);
 		
@@ -33,6 +33,7 @@ public class Reports_RetrivalRequestFedwire extends BaseClass{
 			clickelementwithname(RRreport.paymentservicedropdown, "Payment service dropdown");
 			visibleofele(driver, RRreport.fedwireoption, "Payment service dropdown");
 			JSClick(driver,RRreport.fedwireoption, "Fedwire Payment service.");
+//			RRreport.fedwireoption.click();
 			
 			datePicker();
 			
