@@ -34,7 +34,7 @@ public class Reports_AccountReportingFedwire extends BaseClass{
 			clickelementwithname(acreport.paymentservicedropdown, "Payment service dropdown");
 			visibleofele(driver, acreport.fedwireoption, "Payment service dropdown");
 //			Waitforclickable(acreport.fedwireoption, 5);
-//			JSClick(driver,acreport.fedwireoption, "Payment service dropdown");
+			JSClick(driver,acreport.fedwireoption, "Payment service dropdown");
 			clickelementwithname(acreport.selectReportType, "Reopening Report Type dropdown");
 			
 			// Step 2: Re-fetch the list to avoid stale element
