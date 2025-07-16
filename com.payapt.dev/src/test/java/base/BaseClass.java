@@ -56,6 +56,7 @@ import com.pages.ExecutionsSummaryPage;
 import com.pages.LoginPage;
 import com.pages.Reports_AccountReportingPage;
 import com.pages.Reports_BroadcastMessagesPage;
+import com.pages.Reports_Fedwire_AccountReportingPage;
 import com.pages.Reports_ParticpantFilePage;
 import com.pages.Reports_RetrivalRequestPage;
 
@@ -75,6 +76,7 @@ public class BaseClass {
 	public static LoginPage logintest;
 	public static BatchPage batchpage;
 	public static Reports_AccountReportingPage acreport;
+	public static Reports_Fedwire_AccountReportingPage FWacreport;
 	public static Reports_BroadcastMessagesPage bmreport;
 	public static Reports_RetrivalRequestPage RRreport;
 	public static Reports_ParticpantFilePage PFreport;
@@ -105,7 +107,7 @@ public class BaseClass {
 		loadProperties();
 		WebDriverManager.chromedriver().setup();
 		WebDriverManager.firefoxdriver().setup();
-		WebDriverManager.edgedriver().setup();
+//		WebDriverManager.edgedriver().setup();
 
 		String browserName = prop.getProperty("browser");
 
@@ -156,9 +158,9 @@ public class BaseClass {
 		case "firefox":
 			driver = new FirefoxDriver();
 			break;
-		case "microsoftedge":
-			driver = new EdgeDriver();
-			break;
+//		case "microsoftedge":
+//			driver = new EdgeDriver();
+//			break;
 		default:
 			throw new RuntimeException("Invalid browser name in config file: " + browserName);
 		}
@@ -565,7 +567,7 @@ public class BaseClass {
 	public void clickelementwithname(WebElement element, String elename) {
 		try {
 			Waitforclickable(element, 10);
-
+			
 			String text = element.getText().isEmpty() ? elename : element.getText();
 			element.click();
 			System.out.println(text + " is Clicked");

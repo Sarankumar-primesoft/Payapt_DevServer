@@ -33,7 +33,7 @@ public class Reports_RetrivalRequestFedwire extends BaseClass{
 			clickelementwithname(RRreport.paymentservicedropdown, "Payment service dropdown");
 			visibleofele(driver, RRreport.fedwireoption, "Payment service dropdown");
 			JSClick(driver,RRreport.fedwireoption, "Fedwire Payment service.");
-//			RRreport.fedwireoption.click();
+			RRreport.fedwireoption.click();
 			
 			datePicker();
 			
