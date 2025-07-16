@@ -76,7 +76,7 @@ public class BaseClass {
 	public static LoginPage logintest;
 	public static BatchPage batchpage;
 	public static Reports_AccountReportingPage acreport;
-	public static Reports_Fedwire_AccountReportingPage FWacreport;
+//	public static Reports_Fedwire_AccountReportingPage FWacreport;
 	public static Reports_BroadcastMessagesPage bmreport;
 	public static Reports_RetrivalRequestPage RRreport;
 	public static Reports_ParticpantFilePage PFreport;

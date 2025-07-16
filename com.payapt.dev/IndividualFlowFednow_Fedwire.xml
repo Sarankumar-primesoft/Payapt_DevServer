@@ -14,8 +14,12 @@
 			<class name="IndividualFlows.Reports_BroadcastMessagesFednow" />
 			<class name="IndividualFlows.Reports_ParticipantFileFednow" />
 			<class name="IndividualFlows.Fednow_ExecutionsSummary" />
-
-			<class name="IndividualFlows.FedwireBatchTest" />
+		</classes>
+	</test> 
+	<test thread-count="5" name="fedwiretest"> 
+		<classes>
+		<class name="com.test.LoginTest" />
+					<class name="IndividualFlows.FedwireBatchTest" />
 			<class name="IndividualFlows.Reports_AccountReportingFedwire" />
 			<class name="IndividualFlows.Reports_RetrivalRequestFedwire" />
 			<class name="IndividualFlows.Reports_BroadcastMessagesFedwire" />
