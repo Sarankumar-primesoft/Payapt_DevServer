@@ -4,15 +4,22 @@
   <listeners>
     <listener class-name="com.listeners.AnnotationListerners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="fedwiretest(failed)">
     <classes>
-      <class name="IndividualFlows.Reports_ParticipantFileFedwire">
+      <class name="com.test.LoginTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="ParticipantFile_Fedwire"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- IndividualFlows.Reports_ParticipantFileFedwire -->
+      </class> <!-- com.test.LoginTest -->
+      <class name="IndividualFlows.Reports_RetrivalRequestFedwire">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="RetrivalRequestTest_Fedwire"/>
+        </methods>
+      </class> <!-- IndividualFlows.Reports_RetrivalRequestFedwire -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- fedwiretest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

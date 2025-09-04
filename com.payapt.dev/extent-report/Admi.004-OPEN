@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urn:FedwireFundsOutgoing xmlns:urn="urn:fedwirefunds:outgoing:v001" xmlns:h="urn:iso:std:iso:20022:tech:xsd:head.001.001.03" xmlns:p="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02">
+<urn:FedwireFundsOutgoingMessage>
+<urn:FedwireFundsBroadcast>
+<h:AppHdr xmlns:h="urn:iso:std:iso:20022:tech:xsd:head.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.001.001.03 BusinessApplicationHeader_head_001_001_03.xsd">
+<h:Fr>
+<h:FIId>
+<h:FinInstnId>
+<h:ClrSysMmbId>
+<h:MmbId>021151080</h:MmbId>
+</h:ClrSysMmbId>
+</h:FinInstnId>
+</h:FIId>
+</h:Fr>
+<h:To>
+<h:FIId>
+<h:FinInstnId>
+<h:ClrSysMmbId>
+<h:MmbId>011054402</h:MmbId>
+</h:ClrSysMmbId>
+</h:FinInstnId>
+</h:FIId>
+</h:To>
+<h:BizMsgIdr>20250722A1B2C3D4000004</h:BizMsgIdr>
+<h:MsgDefIdr>admi.004.001.02</h:MsgDefIdr>
+<h:BizSvc>TEST</h:BizSvc>
+<h:MktPrctc>
+<h:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</h:Regy>
+<h:Id>frb.fedwire.01</h:Id>
+</h:MktPrctc>
+<h:CreDt>2025-07-21T21:00:01-04:00</h:CreDt>
+<h:BizPrcgDt>2025-07-21T21:00:01-04:00</h:BizPrcgDt>
+</h:AppHdr>
+<p:Document xmlns:p="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02 FedwireFundsBroadcast_admi.004.001.02.xsd">
+<p:SysEvtNtfctn>
+<p:EvtInf>
+<p:EvtCd>OPEN</p:EvtCd>
+<p:EvtParam>2025-07-22</p:EvtParam>
+<p:EvtTm>2025-07-21T21:00:01-04:00</p:EvtTm>
+</p:EvtInf>
+</p:SysEvtNtfctn>
+</p:Document>
+</urn:FedwireFundsBroadcast>
+</urn:FedwireFundsOutgoingMessage>
+</urn:FedwireFundsOutgoing>

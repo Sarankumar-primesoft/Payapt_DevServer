@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><urn:FedNowOutgoing xmlns:urn="urn:fednow:outgoing:v001"
+                xmlns:h="urn:iso:std:iso:20022:tech:xsd:head.001.001.02"
+                xmlns:p="urn:swift:xsd:admi.998.001.02"><urn:FedNowOutgoingMessage><urn:FedNowParticipantFile><h:AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.001.001.02 BusinessApplicationHeader_head_001_001_02_20210617.xsd"><h:Fr>
+                    <h:FIId>
+                        <h:FinInstnId>
+                            <h:ClrSysMmbId>
+                                <h:MmbId>021150706</h:MmbId>
+                            </h:ClrSysMmbId>
+                        </h:FinInstnId>
+                    </h:FIId>
+                </h:Fr>
+                <h:To>
+                    <h:FIId>
+                        <h:FinInstnId>
+                            <h:ClrSysMmbId>
+                                <h:MmbId>011054402</h:MmbId>
+                            </h:ClrSysMmbId>
+                        </h:FinInstnId>
+                    </h:FIId>
+                </h:To>
+                <h:BizMsgIdr>202507210211507069ZdsKb65v74101093</h:BizMsgIdr>
+                <h:MsgDefIdr>admi.998.001.02</h:MsgDefIdr>
+                <h:MktPrctc>
+                    <h:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/FedNow_Service</h:Regy>
+                    <h:Id>frb.fednow.01</h:Id>
+                </h:MktPrctc>
+                <h:CreDt>2025-07-21T19:00:01-04:00</h:CreDt>
+                <h:BizPrcgDt>2025-07-22T00:00:00-04:00</h:BizPrcgDt>
+            </h:AppHdr><p:Document xsi:schemaLocation="urn:swift:xsd:admi.998.001.02 FedNowParticipantFile_admi_998_001_02_20221208_1726.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:swift:xsd:admi.998.001.02" ><p:AdmstnPrtryMsg>
+                    <p:PrtryData>
+                        <p:Tp>FPFL</p:Tp>
+                        <p:Data>
+                            <p:PtcptFile>
+                                <p:BizDay>2025-07-22</p:BizDay>
+                                <p:PtcptPrfl>
+                                    <p:Id>021040079</p:Id>
+                                    <p:Nm>GSS</p:Nm>
+                                    <p:Svcs>RFPR</p:Svcs>
+                                </p:PtcptPrfl>
+                                <p:PtcptPrfl>
+                                    <p:Id>021040080</p:Id>
+                                    <p:Nm>Infinant</p:Nm>
+                                    <p:Svcs>CTRO</p:Svcs>
+                                </p:PtcptPrfl>
+                                <p:PtcptPrfl>
+                                    <p:Id>011054402</p:Id>
+                                    <p:Nm>Wells Fargo</p:Nm>
+                                    <p:Svcs>RFPR</p:Svcs>
+                                </p:PtcptPrfl>
+                            </p:PtcptFile>
+                        </p:Data>
+                    </p:PrtryData>
+                </p:AdmstnPrtryMsg>
+            </p:Document></urn:FedNowParticipantFile></urn:FedNowOutgoingMessage></urn:FedNowOutgoing>
